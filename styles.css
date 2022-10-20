@@ -19,7 +19,9 @@ html {
 
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  height: 70px;
 }
 
 .headerLinks {
@@ -30,7 +32,7 @@ header {
 
 header li {
   margin: 5px;
-  padding: 5px;
+  padding: 10px 5px;
 }
 
 header a {
@@ -38,9 +40,24 @@ header a {
   color: black;
 }
 
+header img {
+  height: 100%;
+  width: 120px;
+}
+
 /* Wrapper */
 
 .wrapper {
   max-width: 1300px;
   margin: auto;
+}
+
+.groupPhoto {
+  width: 100%;
+}
+
+/* Title Section */
+
+.title {
+  text-align: center;
 }
