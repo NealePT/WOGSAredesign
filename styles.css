@@ -55,7 +55,7 @@ nav img {
 /* Wrapper */
 
 .wrapper {
-  max-width: 1300px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -84,4 +84,8 @@ main {
 .wogsa2022Content {
   background-color: #f5f5f5;
   padding: 40px;
+}
+
+.groupPhoto {
+  width: 100%;
 }
