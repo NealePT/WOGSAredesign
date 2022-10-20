@@ -67,4 +67,21 @@ nav img {
 
 .title {
   text-align: center;
+  font-family: 'EB Garamond', serif;
+}
+
+/* Main Section */
+
+main {
+  background-color: #f5f5f5;
+  margin: 20px;
+}
+
+.wogsa2022Content h2 {
+  margin: 0;
+}
+
+.wogsa2022Content {
+  background-color: #f5f5f5;
+  padding: 40px;
 }
