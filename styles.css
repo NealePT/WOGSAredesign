@@ -17,7 +17,7 @@ html {
 
 /* Header */
 
-header {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,29 +25,29 @@ header {
   background-image: linear-gradient(to right, #fff, #ABF7B1);
 }
 
-.headerLinks {
+.navLinks {
   display: flex;
   margin-right: 20px;
   list-style: none;
 }
 
-header a {
+nav a {
   padding: 10px 10px;
   text-decoration: none;
   color: black;
   border: 2px solid transparent;
 }
 
-header a:hover {
+nav a:hover {
   border: 2px solid white;
 }
 
-header a:active {
+nav a:active {
   background-color: white;
   opacity: 10%;
 }
 
-header img {
+nav img {
   height: 100%;
   width: 120px;
 }
