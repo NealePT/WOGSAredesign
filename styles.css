@@ -13,6 +13,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 html {
   /* font-family: 'EB Garamond', serif; */
   font-family: 'Roboto', sans-serif;
+  background-color: #F6F6F4;
 }
 
 /* Header */
@@ -73,7 +74,7 @@ nav img {
 /* Main Section */
 
 main {
-  background-color: #f5f5f5;
+  background-color: white;
   margin: 20px;
 }
 
@@ -84,6 +85,7 @@ main {
 .wogsa2022Content {
   background-color: #f5f5f5;
   padding: 40px;
+  box-shadow: 2px 2px 10px #888888;
 }
 
 .groupPhoto {
