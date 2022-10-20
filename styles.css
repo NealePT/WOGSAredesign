@@ -22,6 +22,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 70px;
+  background-image: linear-gradient(to right, #fff, #ABF7B1);
 }
 
 .headerLinks {
@@ -30,14 +31,20 @@ header {
   list-style: none;
 }
 
-header li {
-  margin: 5px;
-  padding: 10px 5px;
-}
-
 header a {
+  padding: 10px 10px;
   text-decoration: none;
   color: black;
+  border: 2px solid transparent;
+}
+
+header a:hover {
+  border: 2px solid white;
+}
+
+header a:active {
+  background-color: white;
+  opacity: 10%;
 }
 
 header img {
