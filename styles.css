@@ -91,3 +91,8 @@ main {
 .groupPhoto {
   width: 100%;
 }
+
+.tbMain {
+  display: flex;
+  justify-content: space-between;
+}
