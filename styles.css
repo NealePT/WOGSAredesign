@@ -115,6 +115,10 @@ main {
   display: none;
 }
 
+.eventPairings h2 {
+  margin: 20px 0px;
+}
+
 /* Pairings Table */
 
 .divTable{
@@ -144,6 +148,3 @@ main {
 	border-top: 1px solid #999999;
 }
 
-.eventPairings h2 {
-  margin: 20px 0px;
-}
