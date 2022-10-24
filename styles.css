@@ -114,3 +114,30 @@ main {
 .eventPairings {
   display: none;
 }
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell {
+	display: table-cell;
+	padding: 5px 10px;
+}
+
+.divTableHeading {
+	background-color: #dddddd;
+	font-weight: bold;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableRowTop {
+	border-top: 1px solid #999999;
+}
