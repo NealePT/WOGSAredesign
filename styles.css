@@ -24,6 +24,8 @@ nav {
   justify-content: space-between;
   height: 70px;
   background-image: linear-gradient(to right, #fff, #ABF7B1);
+  position: fixed;
+  width: 100%;
 }
 
 .navLinks {
@@ -61,6 +63,7 @@ nav img {
 }
 
 .stretchImage {
+  padding-top: 70px;
   width: 100%;
 }
 
