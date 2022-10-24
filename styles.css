@@ -110,3 +110,7 @@ main {
 .taylorBarnes h2 {
   margin: 0;
 }
+
+.eventPairings {
+  display: none;
+}
