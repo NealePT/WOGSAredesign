@@ -1,18 +1,30 @@
 const showPairings = () => {
   let x = document.getElementById("eventPairings");
+  let y = document.getElementById("pairingsButton");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
   }
+  if (y.innerHTML === "Hide Event Pairings") {
+    y.innerHTML = "Show Event Pairings";
+  } else {
+    y.innerHTML = "Hide Event Pairings";
+  }
 };
 
 const showPairingsNavBar = () => {
   let x = document.getElementById("eventPairings");
+  let y = document.getElementById("pairingsButton");
   if (x.style.dipslay === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "block";
+  }
+  if (y.innerHTML === "Show Event Pairings") {
+    y.innerHTML = "Hide Event Pairings";
+  } else {
+    y.innerHTML = "Hide Event Pairings";
   }
 };
 
