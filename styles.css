@@ -47,8 +47,8 @@ nav a:hover {
 }
 
 nav a:active {
-  background-color: white;
-  opacity: 10%;
+  background-color: transparent;
+  opacity: 90%;
 }
 
 nav img {
