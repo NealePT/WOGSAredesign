@@ -40,10 +40,13 @@ nav a {
   text-decoration: none;
   color: black;
   border: 2px solid transparent;
+  transition-duration: 0.4s;
+
 }
 
 nav a:hover {
   border: 2px solid white;
+  background-color: white;
 }
 
 nav a:active {
@@ -78,7 +81,7 @@ nav img {
 /* Main Section */
 
 main {
-  background-color: white;
+  background-color: #f5f5f5;
   margin: 20px;
 }
 
