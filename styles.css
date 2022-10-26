@@ -198,10 +198,21 @@ main {
 
 /* Media queries */
 
-@media (max-width: 800px) {  
-  /* .navLinks {
-    display: none;
+@media screen and (max-width: 800px) {  
+  .topNav a.icon {
+    float: right;
+    display: block;
   }
-   */
 
+  .topNav.responsive {position: relative;}
+  .topNav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
