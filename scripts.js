@@ -46,11 +46,9 @@ document.getElementById("sponsorsList").innerHTML = showSponsors();
 // Show NavBar Links on smaller screens
 const showNav = () => {
   let x = document.getElementById("topNav");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    console.log(x.style.display);
+  if (x.className === "topNav") {
+    x.className += " responsive";
   } else {
-    x.style.display = "none";
-    console.log(x.style.display);
+    x.className = "topNav";
   }
 }
