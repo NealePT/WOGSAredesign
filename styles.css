@@ -190,5 +190,11 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  max-height: 200px;
+  max-height: 220px;
+}
+
+/* Media queries */
+
+@media (max-width: 800px) {
+  
 }
