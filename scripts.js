@@ -45,7 +45,7 @@ document.getElementById("sponsorsList").innerHTML = showSponsors();
 
 // Show NavBar Links on smaller screens
 const showNav = () => {
-  let x = document.getElementById("hiddenNavLinks");
+  let x = document.getElementById("topNav");
   if (x.style.display === "none") {
     x.style.display = "block";
     console.log(x.style.display);
