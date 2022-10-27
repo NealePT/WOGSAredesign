@@ -218,7 +218,7 @@ main {
   .topNav a.icon {
     float: right;
     display: block;
-    margin: 10px;
+    padding: 25px 20px;
   }
 
   .topNav.responsive {
@@ -234,6 +234,7 @@ main {
     position: absolute;
     right: 0;
     bottom: 0;
+    padding: 25px 20px;
   }
   .topNav.responsive a {
     float: none;
