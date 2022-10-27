@@ -228,6 +228,9 @@ main {
     color: white;
   }
   .topNav.responsive a.icon {
+    display: none;
+  }
+  .topNav.responsive a.xIcon {
     position: absolute;
     right: 0;
     bottom: 0;
