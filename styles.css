@@ -202,7 +202,9 @@ main {
 }
 
 @media screen and (max-width: 800px) {
-  nav {display: block;}
+  nav {
+    display: block;
+  }
   nav img {
     position: absolute;
     top: 0;
@@ -217,13 +219,14 @@ main {
 
   .topNav.responsive {
     position: relative;
-    background-color: #cfcfcf;
+    top: 70px;
+    background-image: linear-gradient(to right, #fff, #ABF7B1);
     color: white;
   }
   .topNav.responsive a.icon {
     position: absolute;
     right: 0;
-    top: 0;
+    bottom: 0;
   }
   .topNav.responsive a {
     float: none;
