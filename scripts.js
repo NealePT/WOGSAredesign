@@ -52,3 +52,12 @@ const showNav = () => {
     x.className = "topNav";
   }
 }
+
+const hideNav = () => {
+  let x = document.getElementById("topNav");
+  if (x.className === "responsive") {
+    x.className -= " responsive";
+  } else {
+    x.className = "topNav";
+  }
+}
