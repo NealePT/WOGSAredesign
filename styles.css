@@ -203,7 +203,11 @@ main {
 
 @media screen and (max-width: 800px) {
   nav {display: block;}
-  nav img {display: none;}
+  nav img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   .topNav a {display: none;}
   .topNav a.icon {
     float: right;
