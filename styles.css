@@ -16,13 +16,17 @@ html {
 /* Header */
 
 nav {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
   height: 70px;
   background-image: linear-gradient(to right, #fff, #ABF7B1);
   position: fixed;
   width: 100%;
+}
+
+.topNav {
+  overflow: hidden;
 }
 
 .navLinks {
@@ -128,7 +132,7 @@ main {
 }
 
 .pairingsButton:hover {
-  background-color: #f5f5f5; /* Green */
+  background-color: #f5f5f5;
   color: #4CAF50;
   border: solid 1px #4CAF50;
 }
@@ -190,8 +194,34 @@ main {
 }
 
 
-/* Media queries */
+/* Responsive Design */
 
-@media (max-width: 800px) {
+.icon {
+  display: none;
+}
 
+@media screen and (max-width: 800px) {
+  nav img {display: none;}
+  .topNav a {display: none;}
+  .topNav a.icon {
+    float: right;
+    display: block;
+    margin: 10px;
+  }
+
+  .topNav.responsive {
+    position: relative;
+    background-color: #888888;
+    color: white;
+  }
+  .topNav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
