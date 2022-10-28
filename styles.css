@@ -190,6 +190,11 @@ main {
   max-height: 220px;
 }
 
+/* Contact Section */
+
+.contactImage {
+  width: 100%;
+}
 
 /* Responsive Design */
 
