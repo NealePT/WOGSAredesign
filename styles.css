@@ -46,6 +46,10 @@ nav img {
   width: 120px;
 }
 
+.topNav {
+  margin-right: 20px;
+}
+
 /* Wrapper */
 
 .wrapper {
@@ -209,6 +213,9 @@ main {
 @media screen and (max-width: 800px) {
   nav {
     display: block;
+  }
+  .topNav {
+    margin-right: 0px;
   }
   nav img {
     position: absolute;
