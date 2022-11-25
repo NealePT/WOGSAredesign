@@ -1,7 +1,7 @@
 # WOGSA Redesign
 
 # Description 
-This is a contract from the Western Ontario Golf Superintendent's Association. They essentially just wanted a full redesign of their current website, with updates to give it a more modern feel as well as making it mobile friendly. 
+This is a contract from the Western Ontario Golf Superintendent's Association. They essentially just wanted a full redesign of their current website, with updates to give it a more modern feel as well as making it mobile friendly. I worked with the client to capture the same feeling of the website while making it look more modern than before. Previously the sidebar was used as navigation and would load a new page every time a button was clicked. I put all of the content on a single page, and made the navbar stick to the top of the screen and connect to each section of the page. 
 
 ## Updated CSS
 Views of the main page of the newly updated website.
@@ -10,7 +10,9 @@ Views of the main page of the newly updated website.
 
 ![Screen Shot 2022-11-25 at 2 42 33 PM](https://user-images.githubusercontent.com/89871393/204049189-4078eccb-0818-4a19-9e01-9ead70dbef3a.png)
 
+
 Navigation bar collapses when on mobile or small screen.
+
 ![Screen Shot 2022-11-25 at 2 42 59 PM](https://user-images.githubusercontent.com/89871393/204049197-a4cef12e-b84d-424f-b455-8b6c9f132ad5.png)
 
 
