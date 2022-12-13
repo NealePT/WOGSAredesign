@@ -7,7 +7,6 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 /* Custom Styles Start Here */
 
 html {
-  /* font-family: 'EB Garamond', serif; */
   font-family: 'Roboto', sans-serif;
   background-color: #e6e6e6;
   scroll-behavior: smooth;
