@@ -29,6 +29,7 @@ nav a {
   text-decoration: none;
   color: black;
   transition-duration: 0.4s;
+  border-radius: 20px;
 }
 
 nav a:hover {
