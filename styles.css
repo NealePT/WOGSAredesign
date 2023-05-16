@@ -90,6 +90,8 @@ main {
 
 .groupPhoto {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .tbMain {
@@ -229,6 +231,7 @@ main {
     float: right;
     display: block;
     padding: 25px 20px;
+    border-radius: 0;
   }
 
   .topNav.responsive {
@@ -245,11 +248,14 @@ main {
     right: 0;
     bottom: 0;
     padding: 25px 20px;
+    border-radius: 0;
   }
   .topNav.responsive a {
     float: none;
     display: block;
     text-align: left;
+    border-radius: 0;
+
   }
 
   .tbMain {
