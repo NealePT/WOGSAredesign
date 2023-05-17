@@ -48,6 +48,19 @@ nav img {
   width: 120px;
 }
 
+#wogsaLogo {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 120px;
+}
+
+#wogsaLogo:hover {
+  background-color: none;
+  border-radius: 0;
+  opacity: 100%;
+}
+
 .topNav {
   margin-right: 20px;
 }
