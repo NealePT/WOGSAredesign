@@ -31,6 +31,7 @@
 // Sponsors list
 const showSponsors = () => {
   let sponsors = ["Allturf", "Almack Agronomic", "Bayer", "Burnside Golf Services", "Engage Agro Corporation", "G.C Duke Equipment", "Hutcheson Sand & Mixes", "Ontario Seed Turf Co.", "Plant Science", "Podolinsky Turf Equipment", "Skyway Lawn", "Slack Reel Service", "Speare Seeds", "Syngenta", "Turf Canada", "Turf Care Products Canada", "Vanden Bussche Irigation", "Woodbay Turf"];
+  
   let text = "<ul>";
   sponsors.forEach(myFunction);
   text += "</ul>";
